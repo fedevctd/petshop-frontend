@@ -1,0 +1,201 @@
+/*importo la fuente roboto que es la que pide el figma*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*comando que en todo el body se utilice por defecto la fuente roboto*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*le saco el bullet a las ul por defecto*/
+ul {
+    list-style: none;
+}
+
+/*fondo negro y letra blanca en el header*/
+#barrasuperior {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+#barra-inferior {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 30px;
+}
+
+/*identificacion por etiquetas*/
+#front {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #3C2313;
+}
+
+#catdog {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+#naranja {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F0A83E;
+}
+
+#barranav {
+    background-color: #F0A83E;
+}
+
+#nav {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+#placer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+    background-color: #FFFFFF;
+    border-radius: 2em;
+}
+
+#descuento {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+#banner {
+    background-image: url('../img/bowlimg.png');
+    background-size: cover;
+}
+
+#botoncomederos {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #F0A83E;
+    border-radius: 1em;
+}
+
+
+#productos2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+
+#patita {
+    width: 67px;
+    height: 71px;
+}
+
+#categorias {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+}
+
+#datos {
+    background-color: #3C2313;
+}
+
+#left-datos{
+    text-align: left;
+}
+
+
+/*identificacion por class*/
+.link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.nombre-producto {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+}
+
+.precio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+}
+
+.fondo-gris {
+    background-color: #FBFAF6;
+    text-align: center;
+}
+
+.nombre-datos {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.detalle-datos {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    color: #8A8787;
+}
+
+.margen{
+    margin-left: 70px;
+}
