@@ -1,6 +1,7 @@
 /*importo la fuente roboto que es la que pide el figma*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/*importo la biblioteca de iconos*/
 @import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
 
 /*comando que en todo el body se utilice por defecto la fuente roboto*/
@@ -71,7 +72,7 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
-    line-height: 15px;
+    line-height: 25px;
 }
 
 #placer {
